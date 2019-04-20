@@ -21,36 +21,73 @@ html{
 	padding: 0;
 }
 body {
-	min-height: 100%;
-	margin: 0;
-	padding: 0;
-	font-family: 'fsftw-r';
+	height: 100%;
+  background-color: #EAE7DC;
+  margin: 0;
+  padding: 0;
+  font-family: 'fsftw-r';
+  font-size: large;
   color: #8E8D8A;
-	background-color: #EAE7DC;
 }
 
+/*
+div
+*/
 header, section, footer, aside, main, article, figure {
 	display: block;
 	margin: auto;
 }
 
-section#intro{
-  color: #E85A4F;
-  text-align: right;
-  /*
-  height: 100px;
-  */
+section#title{
+  background-color: #EAE7DC;
+  background-image: url("http://sftw.azurewebsites.net/img/title3.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  text-align: center;
+  height: 100%;
 }
+section#intro{
+  background-color: #EAE7DC;
+  background-image: url("http://sftw.azurewebsites.net/img/intro3.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  text-align: justify;
+  height: 100%;
+}
+section#products{
+  background-color: #D8C3A5;
+  background-image: url("http://sftw.azurewebsites.net/img/SHOP1.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  text-align: justify;
+}
+section{
+
+}
+
 main{
-	text-align: justify;
-  /*text-shadow: -5px 0 2px #EAE7DC, 0 5px 2px #EAE7DC, 5px 0 2px #EAE7DC, 0 -5px 2px #EAE7DC;
-  */
-  background-image: url(http://sftw.azurewebsites.net/img/SFTWbg.svg);
+/*
+  text-align: justify;
+  text-shadow: -5px 0 2px #EAE7DC, 0 5px 2px #EAE7DC, 5px 0 2px #EAE7DC, 0 -5px 2px #EAE7DC;
+
+  background-image: url("http://sftw.azurewebsites.net/img/SFTWbg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  */
 }
-
 
 footer {
    background-color: #EAE7DC;
@@ -61,21 +98,50 @@ footer {
    text-align: center;
    font-size: small;
 }
-div.content{
-  width: 600px;
+div#title{
+  position: relative;
+  top: 30%;
+/*  width: 600px;
   padding: 50px;
-	margin: auto;
+	margin: auto;*/
 }
+div#intro{
+  position: relative;
+  width: 90%;
+  top: 15%;
+  left: 5%;
+  border-style: solid;
+  border-radius: 18px;
+  border-width: 1px;
+  border-color: #8E8D8A;
+  background-color: #EAE7DC;
+}
+div.content{
+  padding: 18px;
+}
+
+
+span.stext{
+  background-color: #EAE7DC;
+  padding: 18px;
+}
+
+/*
+inline element
+*/
 img {
 	color: red;
+}
+img.imgsftw{
+  width: 80%;
 }
 img.imgclick {
 	max-height: 500px;
 	text-align: center;
 	width: 200px;
 }
-img.fullw{
-  width: 100%;
+td.imgclick{
+  width: 200px;
 }
 img#menu{
   width: 50px;
@@ -90,30 +156,35 @@ img#menu{
 }
 
 h1, h2, h3{
-  /*
 	font-family: 'fsftw-b';
-  color: #E98074;
+  color: #E85A4F;
   font-weight: normal;
-  */
 }
-table#titletable{
-  width: 100%;
-  height: 150px;
-  background-image: url(http://sftw.azurewebsites.net/img/SHOP.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+h1{
+  font-size: 25px;
 }
-table.producttable{
-  /* border-spacing: 20px;
-  */
-  width: 100%;
-  border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
-  background-color: #EAE7DC99;
-  border: 1px solid #D8C3A5;
+h2{
+  font-size: 20px;
+}
 
+h1,h2,h3,p{
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+table.producttable{
+/*  width: 600px;
+  padding: 50px;
+  margin: auto;
+  border: 1px solid #D8C3A5;
+  border-radius: 20px;
+*/
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #EAE7DCFF;
 }
 
 a{

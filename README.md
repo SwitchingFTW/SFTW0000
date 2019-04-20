@@ -1,11 +1,10 @@
 # SFTW0000
-SFTW0000 is a preliminary project made by the organisation SFTW, consisting on building the 
-[web page](http://sftw.azurewebsites.net/) where actual projects will be documented. This repostory contains all Switching For The Win Official www data.
+The SFTW0000 project is a [web page](http://sftw.azurewebsites.net/) made by the organisation SFTW.This repostory contains all SFTW Official www data.
 
 
 ## Deployment
 
-Data is automatically deployed to [MIcrosoft Azure](https://portal.azure.com).
+Data is automatically deployed to [Microsoft Azure](https://portal.azure.com).
 
 ## Built With
 
